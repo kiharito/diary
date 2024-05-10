@@ -8,5 +8,11 @@ services:
     environment:
       POSTGRES_USER: diary
       POSTGRES_PASSWORD: password
+  mailhog:
+    image: mailhog/mailhog
+    platform: linux/x86_64
+    ports:
+      - 8025:8025
+      - 1025:1025
 volumes:
   db-store:
