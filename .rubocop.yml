@@ -17,3 +17,6 @@ AllCops:
 
 Style/Documentation:
   Enabled: false
+
+RSpecRails/InferredSpecType:
+  Enabled: false
